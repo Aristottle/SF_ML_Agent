@@ -6,6 +6,6 @@ In order to use this agent, some setup is required. These steps are written for 
 
 1. Set up a `conda` virtual environment with python 3.8. Ex: `conda create -n "myenv" python=3.8.0`
 2. Activate your environment: `conda activate myenv`
-3. Install the OpenAI Gym package to your environment: `conda install -c conda-forge gym-all`
-4. With your conda environment active, set your python interpretter in VSCode to your environment.
+3. With your conda environment active, set your python interpretter in VSCode to your environment.
+4. The first time you open the notebook, run the `!pip install gym gym-retro` to get the package in your environment.
 5. Bob's your uncle.
