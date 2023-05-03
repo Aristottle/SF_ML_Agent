@@ -1,0 +1,59 @@
+[32m[I 2023-05-01 17:07:58,886][0m A new study created in memory with name: no-name-16f1f046-8f1e-466c-a30d-930fb8bba6a7[0m
+C:\Users\stott\AppData\Local\Temp\ipykernel_22508\3375613609.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'gamma': trial.suggest_loguniform('gamma', .8, .9999),
+C:\Users\stott\AppData\Local\Temp\ipykernel_22508\3375613609.py:9: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'learning_rate': trial.suggest_loguniform('learning_rate', 5e-6, .003),
+C:\Users\stott\AppData\Local\Temp\ipykernel_22508\3375613609.py:10: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'clip_range': trial.suggest_uniform('clip_range', .1, .4),
+C:\Users\stott\AppData\Local\Temp\ipykernel_22508\3375613609.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use :func:`~optuna.trial.Trial.suggest_float` instead.
+  'gae_lambda': trial.suggest_uniform('gae_lambda', .8, .99)
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 5157`, after every 80 untruncated mini-batches, there will be a truncated mini-batch of size 37
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=5157 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 17:17:32,922][0m Trial 0 finished with value: 2000.0 and parameters: {'n_steps': 5157, 'gamma': 0.833506754295862, 'learning_rate': 0.0009170134828835172, 'clip_range': 0.2877405120836061, 'gae_lambda': 0.9112464524745063}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 7332`, after every 114 untruncated mini-batches, there will be a truncated mini-batch of size 36
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=7332 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 17:31:18,722][0m Trial 1 finished with value: 0.0 and parameters: {'n_steps': 7332, 'gamma': 0.9575188098186643, 'learning_rate': 2.777347305770835e-05, 'clip_range': 0.1546575207082285, 'gae_lambda': 0.9533074219219178}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 4126`, after every 64 untruncated mini-batches, there will be a truncated mini-batch of size 30
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=4126 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 17:43:24,422][0m Trial 2 finished with value: 2000.0 and parameters: {'n_steps': 4126, 'gamma': 0.8011406654421762, 'learning_rate': 0.0013508630290982146, 'clip_range': 0.3553514324804975, 'gae_lambda': 0.8616658018907665}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 2369`, after every 37 untruncated mini-batches, there will be a truncated mini-batch of size 1
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=2369 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 17:54:56,088][0m Trial 3 finished with value: 2000.0 and parameters: {'n_steps': 2369, 'gamma': 0.8987038210116954, 'learning_rate': 0.0017486403444455679, 'clip_range': 0.16416134053431147, 'gae_lambda': 0.9322351775170136}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 4598`, after every 71 untruncated mini-batches, there will be a truncated mini-batch of size 54
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=4598 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 18:06:07,815][0m Trial 4 finished with value: 2000.0 and parameters: {'n_steps': 4598, 'gamma': 0.9927709505318395, 'learning_rate': 0.0018802020486111597, 'clip_range': 0.24599067549535625, 'gae_lambda': 0.8079959184204041}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 2246`, after every 35 untruncated mini-batches, there will be a truncated mini-batch of size 6
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=2246 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 18:18:37,459][0m Trial 5 finished with value: 1000.0 and parameters: {'n_steps': 2246, 'gamma': 0.9649655703891443, 'learning_rate': 0.001392633237948394, 'clip_range': 0.19404364610454583, 'gae_lambda': 0.9363921491687168}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 6066`, after every 94 untruncated mini-batches, there will be a truncated mini-batch of size 50
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=6066 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 18:30:01,802][0m Trial 6 finished with value: 1100.0 and parameters: {'n_steps': 6066, 'gamma': 0.9302962749242575, 'learning_rate': 0.00038129448708642725, 'clip_range': 0.2417392574555847, 'gae_lambda': 0.8299538713808878}. Best is trial 0 with value: 2000.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 2174`, after every 33 untruncated mini-batches, there will be a truncated mini-batch of size 62
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=2174 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 18:39:41,828][0m Trial 7 finished with value: 2300.0 and parameters: {'n_steps': 2174, 'gamma': 0.9762277984415605, 'learning_rate': 9.134669310138299e-06, 'clip_range': 0.22745628750509944, 'gae_lambda': 0.9836254143037808}. Best is trial 7 with value: 2300.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 7327`, after every 114 untruncated mini-batches, there will be a truncated mini-batch of size 31
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=7327 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 18:53:07,273][0m Trial 8 finished with value: 2300.0 and parameters: {'n_steps': 7327, 'gamma': 0.8973034543657292, 'learning_rate': 2.7762987537922343e-05, 'clip_range': 0.2797747026436429, 'gae_lambda': 0.8124302584777204}. Best is trial 7 with value: 2300.0.[0m
+c:\Users\stott\miniconda3\envs\gym_retro\lib\site-packages\stable_baselines3\ppo\ppo.py:148: UserWarning: You have specified a mini-batch size of 64, but because the `RolloutBuffer` is of size `n_steps * n_envs = 6867`, after every 107 untruncated mini-batches, there will be a truncated mini-batch of size 19
+We recommend using a `batch_size` that is a factor of `n_steps * n_envs`.
+Info: (n_steps=6867 and n_envs=1)
+  warnings.warn(
+[32m[I 2023-05-01 19:04:35,290][0m Trial 9 finished with value: 3900.0 and parameters: {'n_steps': 6867, 'gamma': 0.9985207745402009, 'learning_rate': 6.922319804505874e-05, 'clip_range': 0.20801683951860744, 'gae_lambda': 0.8577403385719216}. Best is trial 9 with value: 3900.0.[0m
